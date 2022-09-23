@@ -1,9 +1,11 @@
 package edu;
 
-public class Test24 {
+public class test08 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+//---------switch 구문 break사용----------------------
+		
 		char grade = 'F';
 		
 		switch(grade) {
@@ -18,7 +20,7 @@ public class Test24 {
 		default :
 			System.out.println("60점 미만"); break;
 		}
-
+		
 	}
 
 }
