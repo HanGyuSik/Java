@@ -23,7 +23,6 @@ public class Student {
 		CStudents AA = new CStudents();
 		AA.getStudent(22, "tade", 18 );
 		AA.ShowStudent();
-
 	}
 
 }

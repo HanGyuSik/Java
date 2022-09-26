@@ -1,5 +1,6 @@
 package com.ruby.java.ch06;
 
+//------------GetSet구문----------------------------
 public class Armor01 {
 	private String name;
 	private int height;

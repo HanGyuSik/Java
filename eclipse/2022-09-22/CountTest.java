@@ -16,14 +16,14 @@ package com.ruby.java.ch06;
 	
 			c1.count++;
 			Count.totalCount++;
+			System.out.println(Count.totalCount + " : " + c1.count);
 			c2.count++;
 			Count.totalCount++;
+			System.out.println(Count.totalCount + " : " + c2.count);
 			c3.count++;
 			Count.totalCount++;
-	
-			System.out.println(Count.totalCount + " : " + c1.count);
-			System.out.println(Count.totalCount + " : " + c2.count);
 			System.out.println(Count.totalCount + " : " + c3.count);
+			
 		}
 
 }

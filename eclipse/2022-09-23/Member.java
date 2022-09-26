@@ -4,6 +4,8 @@ public class Member {
 	private String name;
 	private int age;
 
+//------------------생성자------------------------------
+	
 	public Member() {
 		System.out.println("Member() 생성자 실행");
 	}
@@ -26,6 +28,7 @@ public class Member {
 		new Member();
 		new Member("Amy");
 		new Member("Amy", 23);
+		
 	}
 
 }
