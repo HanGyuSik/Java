@@ -1,6 +1,6 @@
 package edu.조건문;
 
-import com.ruby.java.ch06.Student01;
+import edu.겟셋.Student01;
 
 public class test07 {
 
