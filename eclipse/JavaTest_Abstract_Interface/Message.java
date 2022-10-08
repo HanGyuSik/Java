@@ -1,4 +1,4 @@
-package JavaTest;
+package JavaTest_Abstract_Interface;
 
 interface Message {
 	

@@ -1,4 +1,4 @@
-package JavaTest;
+package JavaTest_Abstract_Interface;
 
 abstract class Person { // 추상클래스 (super)
 	private String pnum;

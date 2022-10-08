@@ -1,3 +1,4 @@
+package JavaTest_Abstract_Interface;
 //package JavaTest;
 //
 //abstract class Person { // 추상클래스 (super)
