@@ -1,6 +1,5 @@
 package 연습장;
 
-import java.util.Arrays;
 
 interface MyFunc<T> {
 	T modify(T t);
