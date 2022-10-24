@@ -1,4 +1,4 @@
-package 자바자료구조;
+package Professor;
 
 import java.util.*;
 
@@ -97,7 +97,7 @@ public class ComparableMethod {
 				
 				// iter1의 다음 객체를 설정 없으면 null이 리턴되어 옴.
 				da1 = nextelement(iter1);
-				if (da1 == null) break;		// 탈출로1
+				if (da1 == null) break;
 			}
 			// da2가 da1보다 작으면 list3에 추가
 			else if (da1.compareTo(da2) > 0) {
@@ -105,7 +105,7 @@ public class ComparableMethod {
 
 				// iter2의 다음 객체를 설정 없으면 null이 리턴되어 옴.
 				da2 = nextelement(iter2);
-				if (da2 == null) break;		// 탈출로2
+				if (da2 == null) break;
 			}
 			// 두개의 값이 똑같을 경우 da1을 추가
 			else {
@@ -122,32 +122,7 @@ public class ComparableMethod {
 			}
 		}
 		
-//		boolean bo = true;
-//		while (bo) { // 둘다 원소가 있는동안 반복
-//			if (!iter1.hasNext() || !iter2.hasNext())
-//				bo = false;
-//
-//			// da1이 da2보다 작으면 list3에 추가
-//			if (da1.compareTo(da2) < 0) {
-//				list3.add(da1); // list3에 1값 추가
-//				da1 = iter1.next(); // 다음 값을 당겨옴
-//			}
-//			// da2가 da1보다 작으면 list3에 추가
-//			else if (da1.compareTo(da2) > 0) {
-//				list3.add(da2); // list3에 1값 추가
-//				da2 = iter2.next(); // 다음 값을 당겨옴
-//			}
-//			// 두개의 값이 똑같을 경우 da1을 추가
-//			else {
-//				// 두개가 같은 값이므로 둘다 증가시켜준다.
-//				list3.add(da1);
-//				da1 = iter1.next();
-//				da2 = iter2.next();
-//			}
-//
-//		}
-//
-		// 위 반복이 break되었을 경우 나머지 처리
+		// hasNext로 이동 끝난 후 나머지 처리
 		if (da1 != null) {
 			while(true) {
 				list3.add(da1);
